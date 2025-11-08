@@ -27,8 +27,8 @@ function divide(){
 }
 
 function Module(){
-    let a = Number(prompt('Enter a first Number for divide'));
-    let b = Number(prompt('Enter a second Number for divide'));
+    let a = Number(prompt('Enter a first Number for Module'));
+    let b = Number(prompt('Enter a second Number for Module'));
     let c = a%b;
     console.log(`Module of two Number is ${c}`);
 }
