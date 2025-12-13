@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Attractive Slider Project</title>
+    <link rel="stylesheet" href="slider.css">
+</head>
+<body>
+
+<div class="slider">
+    <div class="slides">
+        <div class="slide active">
+            <img src="images/nature_1.avif">
+        </div>
+
+        <div class="slide">
+            <img src="images/nature2.avif">
+        </div>
+
+        <div class="slide">
+            <img src="images/Nature3.avif">
+        </div>
+        
+        <div class="slide">
+            <img src="images/nature4.avif">
+        </div>
+        
+        <div class="slide">
+            <img src="images/nature5.avif">
+        </div>
+    </div>
+
+    <div class="arrow left" onclick="prevSlide()">&#10094;</div>
+    <div class="arrow right" onclick="nextSlide()">&#10095;</div>
+
+    <div class="dots">
+        <span onclick="goSlide(0)" class="dot active"></span>
+        <span onclick="goSlide(1)" class="dot"></span>
+        <span onclick="goSlide(2)" class="dot"></span>
+        <span onclick="goSlide(3)" class="dot"></span>
+        <span onclick="goSlide(4)" class="dot"></span>
+    </div>
+</div>
+
+<script src="slider.js"></script>
+</body>
+</html>
